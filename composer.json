@@ -2,6 +2,7 @@
     "name": "andrewmontagne/assman",
     "description": "Simple Asset Manager",
     "type": "project",
+    "license": "AGPL-3.0",
     "require": {
         "mikecao/flight": "^1.3",
         "j4mie/paris": "^1.5",
