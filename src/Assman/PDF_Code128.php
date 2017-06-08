@@ -1,4 +1,6 @@
 <?php
+// SOURCE: http://www.fpdf.org/en/script/script88.php
+// This source file is included and used under the FPDF licence.
 
 /*******************************************************************************
  * Script :  PDF_Code128
@@ -38,8 +40,9 @@
  *   205     FNC4            [SwitchToAset]
  *   206     FNC1            FNC1
  *******************************************************************************/
+namespace Assman;
 
-class PDF_Code128 extends FPDF {
+class PDF_Code128 extends \FPDF {
 
     protected $T128;                                         // Tableau des codes 128
     protected $ABCset = "";                                  // jeu des caractères éligibles au C128
